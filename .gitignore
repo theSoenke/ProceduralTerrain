@@ -1,0 +1,39 @@
+# ---------------[ Unity generated ]------------------ #
+Temp/
+Obj/
+obj/
+UnityGenerated/
+Library/
+bin/
+ 
+# ----[ Visual Studio / MonoDevelop generated ]------- # 
+ExportedObj/
+bin/
+*.svd
+*.userprefs
+*.csproj
+*.csproj.user
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.pfx
+*.pfx.meta
+*.DotSettings
+
+ 
+# -------------[ OS generated ]------------------------ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+Thumbs.db
+
+# -------------[ Other ]------------------------ #
+Builds/
+Assets/ProceduralTerrain/Demo/Models
+Assets/ProceduralTerrain/Demo/Models.meta
