@@ -26,6 +26,8 @@ namespace PCG.Voxel
             {
                 case IsosurfaceAlgorithm.MarchingCubes:
                     return new MarchingCubes(this, offset, chunkSize);
+                case IsosurfaceAlgorithm.DualContouring:
+                    return new DualContouringUniform(this, offset, chunkSize);
                 default:
                     throw new NotImplementedException();
             }
@@ -38,6 +40,6 @@ namespace PCG.Voxel
     public enum IsosurfaceAlgorithm
     {
         MarchingCubes,
-        //DualContouring
+        DualContouring
     }
 }
