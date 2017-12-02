@@ -37,7 +37,7 @@ namespace PCG.Voxel
 
         private void DrawBounds()
         {
-            lineRenderer.numPositions = 16;
+            lineRenderer.positionCount = 16;
 
             Vector3 frontBottomLeft = transform.position;
             Vector3 frontBottomRight = new Vector3(frontBottomLeft.x + chunkSize, frontBottomLeft.y, frontBottomLeft.z);
